@@ -4,7 +4,7 @@ import { Poppins } from "next/font/google";
 
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 
-import smd from "@/content/data/siteMetaData";
+import { siteMetadata } from "@/content/data/siteMetaData";
 
 import Header from "@/components/ui/Header";
 import Footer from "@/components/ui/footer/0-index";
@@ -18,15 +18,15 @@ const base = Poppins({
 
 export const metadata = {
   title: {
-    default: smd.title,
-    template: "%s | " + smd.title,
+    default: siteMetadata.title,
+    template: "%s | " + siteMetadata.title,
   },
-  description: smd.description,
+  description: siteMetadata.description,
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang={smd.language} className={`${base.variable} `}>
+    <html lang={siteMetadata.language} className={`${base.variable} `}>
       <body className="relative">
         <GoogleAnalytics />
 

@@ -3,8 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 
-import smd from "@/content/data/siteMetaData";
-import { StaticPages } from "@/content/data";
+import { siteMetadata, StaticPages } from "@/content/data/siteMetaData";
 
 import IconComponent from "@/components/ui/IconComponent";
 import { footerReyhan } from "@/public/assets/images";
@@ -28,7 +27,11 @@ export default function Header() {
         className="gradientTransition z-50"
       >
         <div className="w-10 md:w-16 xl:w-20">
-          <img src={smd.siteLogo} alt={smd.title} className="p-0.5" />
+          <img
+            src={siteMetadata.siteLogo}
+            alt={siteMetadata.title}
+            className="p-0.5"
+          />
         </div>
       </Link>
       <nav className="fixed py-1 my-1 md:my-4 px-6 border border-solid border-dark rounded-full font-extralight text-sm md:text-base bg-white bg-opacity-40 top-2 right-1/2 translate-x-1/2 bg-light/60 backdrop-blur-sm z-50">

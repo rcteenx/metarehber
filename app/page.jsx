@@ -1,4 +1,4 @@
-import smd from "@/content/data/siteMetaData";
+import { siteMetadata } from "@/content/data/siteMetaData";
 
 import { barInfo } from "@/content/data";
 import { rVideo } from "@/public/assets/images";
@@ -9,7 +9,7 @@ import SocialMedia from "@/components/sections/common/z-social-media";
 
 export async function generateMetadata() {
   return {
-    title: smd.title + " - Meta Rehber",
+    title: siteMetadata.title + " - Meta Rehber",
   };
 }
 
