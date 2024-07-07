@@ -48,7 +48,7 @@ export default function StaticPage() {
                     required="required"
                     placeholder="Email adresiniz"
                     aria-label="Email address"
-                    className="w-full px-4 py-2 text-base leading-6 transition duration-150 ease-in-out border-2 rounded-md appearance-none focus:outline-none sm:max-w-xs border-gray-200 placeholder-gray-500 text-indigo  focus:placeholder-gray-400 bg-white"
+                    className="w-full px-4 py-2 text-base leading-6 transition duration-150 ease-in-out border-2 rounded-md appearance-none focus:outline-none sm:max-w-xs border-gray-200 placeholder-gray-500 text-primary  focus:placeholder-gray-400 bg-white"
                   />
                   <div className="mt-3 sm:mt-0 sm:ml-3 sm:flex-shrink-0">
                     <input
@@ -56,7 +56,7 @@ export default function StaticPage() {
                       name="subscribe"
                       id="mc-embedded-subscribe"
                       value="Subscribe"
-                      className="block px-4 py-2 text-white/80 transition duration-100 ease-in-out bg-indigo border border-transparent rounded shadow-sm gradientIndigo focus:border-indigo focus:ring-2 focus:ring-indigo focus:outline-none focus:ring-opacity-50"
+                      className="block px-4 py-2 text-white/80 transition duration-100 ease-in-out bg-primary border border-transparent rounded shadow-sm gradientprimary focus:border-primary focus:ring-2 focus:ring-primary focus:outline-none focus:ring-opacity-50"
                     ></input>
                   </div>
                 </div>

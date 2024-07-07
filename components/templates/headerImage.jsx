@@ -36,7 +36,7 @@ const h1Styles = cva("absolute -bottom-4 left-8 font-light ", {
 
 export default function HeaderTitle({ bgImage, h1Color, children, ...props }) {
   return (
-    <section className="md:p-4 sm:gradientWhiteToIndigo shadow-lg border-b-4 border-indigo-light-3 -z-10">
+    <section className="md:p-4 sm:gradientWhiteToprimary shadow-lg border-b-4 border-primary-light-3 -z-10">
       <div className={cn(imageStyles({ bgImage }))}>
         <h1 className={cn(h1Styles({ h1Color }))}>{children}</h1>
       </div>

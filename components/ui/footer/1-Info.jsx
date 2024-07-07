@@ -9,7 +9,7 @@ const FooterInfo = () => {
             src={footerReyhan.src}
             alt="reyhan çetin"
             title="reyhan çetin"
-            className="m-0 p-2 h-28 w-28 border-2 border-indigo-light-1 rounded-full gradientTransition"
+            className="m-0 p-2 h-28 w-28 border-2 border-primary-light-1 rounded-full gradientTransition"
           />
         </a>
       </div>

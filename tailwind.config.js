@@ -18,9 +18,6 @@ module.exports = {
       },
       colors: {
         primary: {
-          DEFAULT: "#8c8c8c",
-        },
-        indigo: {
           DEFAULT: "#333366",
           light: {
             1: "#444477",
@@ -40,11 +37,7 @@ module.exports = {
         accent: {
           DEFAULT: "#FFD700",
         },
-        indigo2: "#5b5b84",
         gray40: "#666666",
-        "coral-red": "#FF6452",
-        "indigo-gray": "#6D6D6D",
-        "pale-blue": "#F5F6FF",
         "white-400": "rgba(255, 255, 255, 0.80)",
       },
       backgroundImage: (theme) => ({

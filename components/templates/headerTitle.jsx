@@ -4,8 +4,8 @@ import { cn } from "@/lib/utils";
 const titleStyles = cva(" ", {
   variants: {
     bgColor: {
-      default: "bg-indigo border-b-2 border-indigo-light-5 shadow-lg",
-      secondary: "bg-indigo",
+      default: "bg-primary border-b-2 border-primary-light-5 shadow-lg",
+      secondary: "bg-primary",
       danger: "bg-red-600",
     },
   },
