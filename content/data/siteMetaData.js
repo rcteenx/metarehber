@@ -1,8 +1,9 @@
 export const siteMetadata = {
-  title: "Meta Rehber -  Ezoterik Felsefe Araştırma ve Uygulama Topluluğu",
+  logo: "meta rehber",
+  title: "Meta Rehber -  Öğreti ve Yollar",
   author: "rcteenx",
-  headerTitle: "Meta Rehber | Ezoterik Felsefe Araştırma ve Uygulama Topluluğu",
-  description: "Meta Rehber Ezoterik Felsefe Araştırma ve Uygulama Topluluğu",
+  headerTitle: "Meta Rehber | Öğreti ve Yollar",
+  description: "Meta Rehber Öğreti ve Yollar",
   language: "tr-TR",
   siteUrl: "https://metarehber.org.tr/",
   siteLogo: "/logo-rc.png",
@@ -12,35 +13,15 @@ export const siteMetadata = {
 export const StaticPages = [
   {
     id: 1,
-    title: "Meta Rehber",
-    link: "meta-rehber",
+    title: "Meta",
+    link: "meta",
     pages: [{ id: 1, title: "Hakkımızda", link: "hakkimizda" }],
   },
   {
     id: 2,
-    title: "Meta",
-    link: "meta",
-    pages: [
-      { id: 1, title: "Bilinç Yolu", link: "bilinc" },
-      {
-        id: 2,
-        title: "Farkındalık Yolu",
-        link: "farkindalik",
-      },
-    ],
-  },
-  {
-    id: 3,
     title: "Rehber",
     link: "rehber",
-    pages: [
-      { id: 1, title: "Giriş Atölyesi", link: "atolye" },
-      // {
-      //   id: 2,
-      //   title: "Tanıtım Semineri",
-      //   link: "seminer",
-      // },
-    ],
+    pages: [{ id: 1, title: "Giriş Atölyesi", link: "atolye" }],
   },
   {
     id: 9,

@@ -2,7 +2,7 @@ import HeaderTitle from "@/components/templates/headerTitle";
 import HeaderImage from "@/components/templates/headerImage";
 import PageContent from "@/components/templates/pageContent";
 
-import Support from "@/components/sections/home/x6-support";
+import Support from "@/components/sections/common/x6-support";
 import SocialMedia from "@/components/sections/common/z-social-media";
 
 export default function StaticPage() {
