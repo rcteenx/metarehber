@@ -13,14 +13,20 @@ export const siteMetadata = {
 export const StaticPages = [
   {
     id: 1,
-    title: "Info",
-    link: "info",
+    title: "insan",
+    link: "insan",
     pages: [{ id: 1, title: "Hakkımızda", link: "hakkimizda" }],
   },
   {
     id: 2,
-    title: "Blog",
-    link: "blog",
+    title: "hayat",
+    link: "hayat",
+    pages: [{ id: 1, title: "Giriş Atölyesi", link: "atolye" }],
+  },
+  {
+    id: 3,
+    title: "yollar",
+    link: "yollar",
     pages: [{ id: 1, title: "Giriş Atölyesi", link: "atolye" }],
   },
   {

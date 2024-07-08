@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer
       id="footer"
-      className="xl:container mx-auto container-p mt-16 gradientprimary xl:rounded-t-2xl text-primary-light-3 z-50"
+      className="xl:container mx-auto container-p mt-16 gradientPrimaryLD xl:rounded-t-2xl text-primary-light-3 z-50"
     >
       <div className="py-8 flex flex-col md:flex-row justify-between md:items-start gap-8 text-center md:text-left">
         <FooterLinks />

@@ -56,7 +56,7 @@ export default function StaticPage() {
                       name="subscribe"
                       id="mc-embedded-subscribe"
                       value="Subscribe"
-                      className="block px-4 py-2 text-white/80 transition duration-100 ease-in-out bg-primary border border-transparent rounded shadow-sm gradientprimary focus:border-primary focus:ring-2 focus:ring-primary focus:outline-none focus:ring-opacity-50"
+                      className="block px-4 py-2 text-white/80 transition duration-100 ease-in-out bg-primary border border-transparent rounded shadow-sm gradientPrimaryLD focus:border-primary focus:ring-2 focus:ring-primary focus:outline-none focus:ring-opacity-50"
                     ></input>
                   </div>
                 </div>

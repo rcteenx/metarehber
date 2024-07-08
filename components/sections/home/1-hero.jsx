@@ -32,7 +32,7 @@ const Hero = ({ rVideo }) => {
             <a
               href="https://wa.me/905443087402?text=at%C3%B6lye%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F%0A"
               title="WhatsApp Mesajı Gönderin"
-              className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200  font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 gradientprimary gradientTransition btn-hero"
+              className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200  font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 gradientPrimaryLD gradientTransition btn-hero"
               role="button"
             >
               Kayıt Ol

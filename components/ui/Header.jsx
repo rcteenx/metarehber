@@ -32,12 +32,12 @@ export default function Header() {
             </Link>
           </h3>
         </div>
-        <nav className="fixed px-4 border border-solid rounded-full font-extralight text-xs md:text-base bg-opacity-40 top-2 right-1/2 translate-x-1/2 bg-light/60 backdrop-blur-sm z-50 bg-white flex justify-center items-center h-8">
-          <ul className="flex justify-center items-center gap-4">
+        <nav className="fixed px-4 border border-solid rounded-full font-light text-xs md:text-base bg-opacity-40 top-2 right-1/2 translate-x-1/2 bg-light/60 backdrop-blur-sm z-50 bg-white flex justify-center items-center h-8">
+          <ul className="flex justify-center items-center gap-2">
             {menu.map((p) => (
               <li
                 key={p.id}
-                className={`border-b border-b-white hover:border-b-primary `}
+                className={`border-b border-b-white hover:border-b-primary  `}
               >
                 {/* ${ id === p.id ? "text-primary" : "" } */}
                 <Link
@@ -62,7 +62,7 @@ export default function Header() {
         </div>
 
         <div
-          className={` inset-0 flex justify-center items-center w-full gradientprimary ease-out duration-300 z-30 ${
+          className={` inset-0 flex justify-center items-center w-full gradientPrimaryLD ease-out duration-300 z-30 ${
             menuIcon ? "left-0 fixed" : "fixed left-[-100%] "
           }`}
         >
