@@ -41,8 +41,9 @@ export const StaticPages = [
     link: "hayat",
     pages: [
       { id: 1, title: "Dış Dünya", link: "dis-dunya" },
-      { id: 2, title: "İzlenimler", link: "izlenimler" },
-      { id: 3, title: "Etkileşim", link: "etkilesim" },
+      { id: 2, title: "Canlılık", link: "canlilik" },
+      { id: 3, title: "İzlenimler", link: "izlenimler" },
+      { id: 4, title: "Etkileşim", link: "etkilesim" },
     ],
   },
   {
@@ -58,7 +59,7 @@ export const StaticPages = [
   },
   {
     id: 9,
-    title: "İletişim",
+    title: "iletişim",
     link: "iletisim",
     pages: [
       {

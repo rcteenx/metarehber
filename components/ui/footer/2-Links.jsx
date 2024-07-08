@@ -6,7 +6,7 @@ const FooterLinks = () => {
       {StaticPages.map((pg) => (
         <div key={pg.title} className="">
           <h4 className="inline-block  text-lg leading-normal font-medium border-b border-primary-light-3 hover:text-primary-dark-3 hover:border-primary-dark-3">
-            <a href={"/" + pg.link}>{pg.title}</a>
+            <a href={"/" + pg.link}>{pg.title.toLocaleUpperCase("TR")}</a>
           </h4>
           <ul>
             {pg.pages.map((sp) => (

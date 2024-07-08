@@ -67,19 +67,31 @@ export default function Header() {
           }`}
         >
           {/* Smaller screen navbar */}
-          <div className=" py-12">
-            <ul className="mx-auto w-48 text-2xl text-center text-primary-light-3 ">
+          <div className="py-4">
+            <ul className="mx-auto w-96 text-2xl text-center text-primary-light-3">
               {menu2.map((p) => (
-                <li
-                  key={p.id}
-                  className={`py-2 hover:text-accent cursor-pointer border-b border-primary-light-1`}
-                >
+                <li key={p.id} className={`py-2 `}>
                   <Link
                     onClick={handleSmallerScreensNavigation}
                     href={`/${p.link}`}
+                    className=" hover:text-accent cursor-pointer border-b border-primary-light-2"
                   >
-                    {p.title.toLowerCase()}
+                    {p.title.toLocaleUpperCase("TR")}
                   </Link>
+
+                  <ul className="flex flex-wrap justify-center items-center gap-2 ">
+                    {p.pages.map((p2) => (
+                      <li key={p2.id} className="text-sm">
+                        <Link
+                          onClick={handleSmallerScreensNavigation}
+                          href={`/${p.link}/${p2.link}`}
+                          className=" hover:text-accent cursor-pointer border-b border-primary-light-2"
+                        >
+                          {p2.title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
                 </li>
               ))}
             </ul>

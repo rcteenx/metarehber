@@ -15,11 +15,21 @@ import {
   FaMobileAlt,
   FaRev,
   FaAlignLeft,
+  FaStarOfLife,
+  FaArchway,
 } from "react-icons/fa";
+
+import { MdManageAccounts } from "react-icons/md";
 
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
+import { VscOrganization } from "react-icons/vsc";
+
 const iconTypes = {
+  platform: VscOrganization,
+  human: MdManageAccounts,
+  life: FaStarOfLife,
+  way: FaArchway,
   facebook: FaFacebook,
   instagram: FaInstagram,
   github: FaGithub,

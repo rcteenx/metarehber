@@ -1,0 +1,45 @@
+export const pageInfo = [
+  {
+    id: 0,
+    h2: "Hakkımızda",
+    p: '"Meta Rehber" 2024 yılında, Reyhan Çetin ve Arkadaşları ile hayata geçen bir platformdur.',
+    icon: "platform",
+    h1: "META REHBER NEDİR?",
+    par: [
+      "Meta Rehber, kişinin kendini tanıma ve aşma yolculuğuna destek olan alternatif öğreti ve çalışmaları bir arada sunmak amacıyla oluşturulmuş bir platformdur.",
+      "Kahramanın yolculuğu, içsel gelişim, kendini tanıma... vb gibi pek  çok farklı isim verilen bu yolculuğa, pek çok insan hiç başlamıyor, büyük bölümü yolda kalıyor. Ancak çok az kişi yolun sonuna doğru ilerleyip, denize kavuşuyor.",
+      "Bu platformda, elimizden geldiğince yolcular için harita ve destek sağlamaya çalışacağız.",
+      "Aklınıza takılan herhangi bir konuda, destek ya da katkı için bize ulaşabilirsiniz.",
+      "Sevgilerle...",
+    ],
+  },
+  {
+    id: 1,
+    h2: "İnsanın Katmanları",
+    p: "Ezoterik bilgilere göre, insan çok boyutlu bir varlıktır: İç içe geçmiş ve bağımsız farklı katmanlardan oluşur.",
+    icon: "human",
+    h1: "İNSAN NEDİR?",
+    par: ["Bilgiğimiz haliyle, tamamlanmamış bir varlıktır.", "Sevgilerle..."],
+  },
+  {
+    id: 2,
+    h2: "Hayat",
+    p: 'Hayattan kastımız, "ben" algımızın dışındaki her şey: Oturduğunuz koltuk, soluduğunuz hava, izlediğiniz ekran, arkadaşınız, yıldızlar...',
+    icon: "life",
+    h1: "HAYAT NEDİR?",
+    par: ["Dış dünya, hayat, gerçeklik... ne kadar gerçek?", "", "Sevgilerle..."],
+  },
+  {
+    id: 3,
+    h2: "Yollar",
+    p: "Bir kişinin ayak izleri kolaylıkla silinebilir. Ancak bir grup ilerliyorsa, bir patika oluşur.",
+    icon: "way",
+    h1: "KENDİNİ TANIMA YOLLARI",
+    par: [
+      "İnsanlar önce, belki karnını doyurmak, alışveriş ya da dış dünyayı merak gibi, dışsal sebeplerle yola çıktı. Ancak bir süre sonra, bazıları aradığını dış dünyada bulamayacağını anlayıp, yolculuğu önce içe sonra da meta fizik diyarlara yönlendirdi.",
+      "Kendini tanımaya, aydınlanmaya, uyanmaya, tanrıya ya da benzeri bir yerlere giden pek çok yol var. Pek çoğu da içinde hakikat parçacıklarını taşıyor.",
+      "Burada pek çok yolu, kendi penceremizden anlatmaya çalışacağız. Tüm bu platformun, meta gerçeklik yolcuları için bir rehber olmasını umuyoruz.",
+      "Sevgilerle...",
+    ],
+  },
+];
