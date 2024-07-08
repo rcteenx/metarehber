@@ -8,14 +8,14 @@ import SocialMedia from "@/components/sections/common/z-social-media";
 export default function StaticPage() {
   return (
     <>
-      <div className="flex flex-col md:flex-row ">
+      <div className="flex flex-col md:flex-row gradientPrimaryLD md:pb-4">
         <PageSticker h2Title="İnsanın Katmanları">
           <p>
             İnsan, çok boyutlu bir varlıktır. Birbirinden bağımsız farklı
             katmanlardan oluşur. Bilgiğimiz haliyle, tamamlanmamış bir
             varlıktır. Her bir katmanda ayrı ayrı çalışması gerekir.
           </p>
-          <ul className="mt-2 p-2 bg-gray-100 shadow-lg">
+          <ul className="">
             <li>
               <a href="#">
                 <span className="w-8 inline-block">H96</span>- Sahte Kişilik
@@ -27,8 +27,9 @@ export default function StaticPage() {
               </a>
             </li>
             <li>
-              <a href="#"></a>
-              <span className="w-8 inline-block">H24</span>- Öz
+              <a href="#">
+                <span className="w-8 inline-block">H24</span>- Öz
+              </a>
             </li>
             <li>
               <a href="#">

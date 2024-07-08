@@ -40,8 +40,11 @@
   .gradientPrimaryLD {
     @apply bg-gradient-to-br from-primary-light-3 via-primary to-primary-dark-3 text-primary-light-5;
   }
-  .gradientPrimaryL5L3 {
+  .gradientPrimaryL1ToWhite {
     @apply bg-gradient-to-b from-primary-light-1 via-primary-light-5 to-white text-primary-dark-3;
+  }
+  .gradientWhiteToPrimaryL1 {
+    @apply bg-gradient-to-b from-white via-primary-light-5 to-primary-light-1 text-primary-dark-3;
   }
   .gradientPrimary {
     @apply bg-gradient-to-br from-primary to-black text-white;
@@ -79,7 +82,7 @@
     @apply mt-2 sm:mt-4 px-4 md:px-8 text-gray-600;
   }
   #pgSticker h2 {
-    @apply mb-0 px-4 pt-3 pb-1 text-xl md:max-w-sm md:text-2xl gradientPrimaryL5L3 rounded-t-2xl;
+    @apply mb-0 px-4 pt-3 pb-1 text-xl md:max-w-sm md:text-2xl gradientPrimaryLD rounded-t-2xl;
   }
   #pgSticker h3 {
     @apply text-sm sm:text-base;
@@ -87,8 +90,14 @@
   #pgSticker p {
     @apply text-xs sm:text-sm;
   }
+  #pgSticker ul {
+    @apply my-2 p-4 bg-primary border border-primary-light-2 rounded-xl;
+  }
   #pgSticker ul li {
-    @apply text-xs sm:text-sm;
+    @apply text-xs sm:text-sm  text-primary-light-3;
+  }
+  #pgSticker ul li a:hover {
+    @apply text-primary-light-5;
   }
   #pgHeader {
     @apply my-4 md:my-0 container-p flex-1 bg-gray-100 md:mr-8 text-gray-600;
