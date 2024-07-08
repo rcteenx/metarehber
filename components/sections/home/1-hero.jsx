@@ -35,17 +35,15 @@ const Hero = ({ rVideo }) => {
               className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200  font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 gradientPrimaryLD gradientTransition btn-hero"
               role="button"
             >
-              Kayıt Ol
+              Mesaj At
               <IconComponent name="arrowright" size={18} color="white" />
             </a>
           </div>
           <a
-            href={
-              "/" + StaticPages[2].link + "/" + StaticPages[2].pages[0].link
-            }
+            href={"/" + StaticPages[0].link}
             className="btn-hero font-semibold text-lg border-0 hover:text-primary-light-3"
           >
-            <span>Bilgi Al</span>
+            <span>Hakkımızda</span>
           </a>
         </div>
       </div>

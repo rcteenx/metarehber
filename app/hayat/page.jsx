@@ -23,7 +23,6 @@ export default function StaticPage() {
               <div className="flex justify-around items-center gap-2">
                 <div id="subMenu">
                   <h3>HAYAT</h3>
-
                   <ul>
                     {menu[0].pages.map((p) => (
                       <li key={p.id}>

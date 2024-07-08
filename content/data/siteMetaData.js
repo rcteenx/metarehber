@@ -53,7 +53,7 @@ export const StaticPages = [
       { id: 1, title: "Dini Yollar", link: "dini" },
       { id: 2, title: "Ezoterik Yollar", link: "ezoterik" },
       { id: 3, title: "Uyanma Yolları", link: "uyanma" },
-      { id: 3, title: "Çalışmalar", link: "calisma" },
+      { id: 4, title: "Çalışmalar", link: "calisma" },
     ],
   },
   {
