@@ -19,7 +19,14 @@ export const pageInfo = [
     p: "Ezoterik bilgilere göre, insan çok boyutlu bir varlıktır: İç içe geçmiş ve bağımsız farklı katmanlardan oluşur.",
     icon: "human",
     h1: "İNSAN NEDİR?",
-    par: ["Bilgiğimiz haliyle, tamamlanmamış bir varlıktır.", "Sevgilerle..."],
+    par: [
+      "Pek çok insan için arayışın ve yolculuğun başladığı ilk sorulardan biri: Ben kimim ya da NE?",
+      "Bu ve benzeri sorularla, bazı insanlar kendilerine doğru bir arayış yolculuğuna başlıyor. Çoğu zaman ne aradıklarını bilmeden. Olmayan bir şeyin eksikilğini hissederek başlayan bir yolculuk.",
+      "Peki bir cevabı var mı?",
+      "Herkes, yolculuğu boyunca muhtemelen kendi doğru cevaplarını bulacak. Bunun için bu kadar farklı yol var; ama bir bakıma da hepsi aynı.",
+      "Çok katmanlı insan modelimizi, çeşitli yolları sınıflandırmak ve kendimizin yoldaki konumunu az çok anlamak için kullanmaya çalışacağız. ",
+      "Sevgilerle...",
+    ],
   },
   {
     id: 2,
@@ -27,11 +34,15 @@ export const pageInfo = [
     p: 'Hayattan kastımız, "ben" algımızın dışındaki her şey: Oturduğunuz koltuk, soluduğunuz hava, izlediğiniz ekran, arkadaşınız, yıldızlar...',
     icon: "life",
     h1: "HAYAT NEDİR?",
-    par: ["Dış dünya, hayat, gerçeklik... ne kadar gerçek?", "", "Sevgilerle..."],
+    par: [
+      "- Dış dünya, hayat, duyularınızla algıladığınız dünya, gerçeklik... ne kadar gerçek?",
+      "- Canlı olmak, hayatın içinde yaşamak ne demek?",
+      "Sevgilerle...",
+    ],
   },
   {
     id: 3,
-    h2: "Yollar",
+    h2: "Aydınlanma Yolları",
     p: "Bir kişinin ayak izleri kolaylıkla silinebilir. Ancak bir grup ilerliyorsa, bir patika oluşur.",
     icon: "way",
     h1: "KENDİNİ TANIMA YOLLARI",
