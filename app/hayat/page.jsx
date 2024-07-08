@@ -17,12 +17,8 @@ export default function StaticPage() {
           </p>
           <h3>Hayatın Farklı Açılımları</h3>
           <ul>
-            <li>Sahte Kişilik</li>
-            <li>Doğru Kişilik</li>
-            <li>Öz</li>
-            <li>Bilinç</li>
-            <li>Aşkın Benlik</li>
-            <li>Birlik & Bütünlük</li>
+            <li>İzlenimler</li>
+            <li>Enerjiler</li>
           </ul>
         </PageSticker>
         <div id="pgHeader">Selam</div>

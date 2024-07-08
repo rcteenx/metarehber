@@ -16,8 +16,8 @@ export default function Header() {
   const handleSmallerScreensNavigationClose = () => {
     setIcon(false);
   };
-  const menu = StaticPages.filter((m) => m.id < 4);
-  const menu2 = StaticPages.filter((m) => m.id > 3);
+  const menu = StaticPages.filter((m) => m.id < 4 && m.id > 0);
+  const menu2 = StaticPages.filter((m) => m.id < 100);
   return (
     <header className="h-12 shadow-lg">
       <div className="mx-auto md:container px-4 lg:px-0 py-2 flex items-center justify-between">
@@ -67,8 +67,8 @@ export default function Header() {
           }`}
         >
           {/* Smaller screen navbar */}
-          <div className=" py-24">
-            <ul className="mx-auto w-24 text-2xl text-center text-primary-light-3 b">
+          <div className=" py-12">
+            <ul className="mx-auto w-48 text-2xl text-center text-primary-light-3 ">
               {menu2.map((p) => (
                 <li
                   key={p.id}

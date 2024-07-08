@@ -12,10 +12,28 @@ export const siteMetadata = {
 
 export const StaticPages = [
   {
+    id: 0,
+    title: "hakkımızda",
+    link: "hakkimizda",
+    pages: [
+      { id: 1, title: "Meta", link: "hakkimizda/meta" },
+      { id: 2, title: "Rehber", link: "hakkimizda/rehber" },
+      { id: 3, title: "Reyhan", link: "hakkimizda/reyhan" },
+      { id: 3, title: "Arkadaşlar", link: "hakkimizda/arkadaslar" },
+    ],
+  },
+  {
     id: 1,
     title: "insan",
     link: "insan",
-    pages: [{ id: 1, title: "Hakkımızda", link: "hakkimizda" }],
+    pages: [
+      { id: 1, title: "Sahte Kişilik", link: "sahte-kisilik" },
+      { id: 2, title: "Doğru Kişilik", link: "dogru-kisilik" },
+      { id: 3, title: "Öz", link: "oz" },
+      { id: 4, title: "Bilinç", link: "bilinc" },
+      { id: 5, title: "Aşkın Benlik", link: "askin-benlik" },
+      { id: 6, title: "Birlik & Bütünlük", link: "birlik-butunluk" },
+    ],
   },
   {
     id: 2,

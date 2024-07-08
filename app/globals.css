@@ -14,8 +14,9 @@
   body {
     @apply text-sm md:text-base font-base text-primary;
   }
+  /* This is special! */
   h1 {
-    @apply my-6 font-bold text-4xl md:text-5xl lg:text-6xl leading-tight tracking-normal;
+    @apply mt-4 mb-0 font-bold text-3xl xl:text-5xl leading-tight tracking-normal;
   }
   h2 {
     @apply my-4 font-bold text-2xl md:text-3xl lg:text-4xl;
@@ -90,14 +91,17 @@
   #pgSticker p {
     @apply text-xs sm:text-sm;
   }
+  #pgSticker ol {
+    @apply my-2 px-8 py-4 bg-primary border border-primary-light-2 rounded-xl;
+  }
   #pgSticker ul {
     @apply my-2 p-4 bg-primary border border-primary-light-2 rounded-xl;
   }
-  #pgSticker ul li {
-    @apply text-xs sm:text-sm  text-primary-light-3;
+  #pgSticker li a {
+    @apply text-xs sm:text-sm  text-primary-light-3 border-b border-primary-dark-1;
   }
-  #pgSticker ul li a:hover {
-    @apply text-primary-light-5;
+  #pgSticker li a:hover {
+    @apply text-primary-light-5  border-b border-primary-light-5;
   }
   #pgHeader {
     @apply my-4 md:my-0 container-p flex-1 bg-gray-100 md:mr-8 text-gray-600;
