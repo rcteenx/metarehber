@@ -79,6 +79,7 @@
   .input {
     @apply sm:flex-1 max-sm:w-full text-base leading-normal text-primary pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-primary max-sm:rounded-full;
   }
+
   #pgSticker {
     @apply mt-2 sm:mt-4 px-4 md:px-8 text-gray-600;
   }
@@ -91,20 +92,23 @@
   #pgSticker p {
     @apply text-xs sm:text-sm;
   }
-  #pgSticker ol {
-    @apply my-2 px-8 py-4 bg-primary border border-primary-light-2 rounded-xl;
+  #subMenu {
+    @apply my-2 p-4 w-48 bg-primary-light-5 rounded-xl;
+  }
+  #subMenu h3 {
+    @apply my-0 text-primary-dark-5;
   }
   #pgSticker ul {
-    @apply my-2 p-4 bg-primary border border-primary-light-2 rounded-xl;
+    @apply p-0;
   }
   #pgSticker li a {
-    @apply text-xs sm:text-sm  text-primary-light-3 border-b border-primary-dark-1;
+    @apply text-xs sm:text-sm  text-primary-light-3 border-b border-primary-light-3;
   }
   #pgSticker li a:hover {
-    @apply text-primary-light-5  border-b border-primary-light-5;
+    @apply text-primary-dark-5  border-b border-primary-dark-5;
   }
   #pgHeader {
-    @apply my-4 md:my-0 container-p flex-1 bg-gray-100 md:mr-8 text-gray-600;
+    @apply my-4 md:my-0 container-p flex-1 max-w-4xl bg-gray-100 md:mr-8 text-gray-600;
   }
 }
 

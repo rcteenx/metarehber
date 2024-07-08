@@ -19,7 +19,7 @@ export const StaticPages = [
       { id: 1, title: "Meta", link: "hakkimizda/meta" },
       { id: 2, title: "Rehber", link: "hakkimizda/rehber" },
       { id: 3, title: "Reyhan", link: "hakkimizda/reyhan" },
-      { id: 3, title: "Arkadaşlar", link: "hakkimizda/arkadaslar" },
+      { id: 4, title: "Arkadaşlar", link: "hakkimizda/arkadaslar" },
     ],
   },
   {
@@ -39,13 +39,22 @@ export const StaticPages = [
     id: 2,
     title: "hayat",
     link: "hayat",
-    pages: [{ id: 1, title: "Giriş Atölyesi", link: "atolye" }],
+    pages: [
+      { id: 1, title: "Dış Dünya", link: "dis-dunya" },
+      { id: 2, title: "İzlenimler", link: "izlenimler" },
+      { id: 3, title: "Etkileşim", link: "etkilesim" },
+    ],
   },
   {
     id: 3,
     title: "yollar",
     link: "yollar",
-    pages: [{ id: 1, title: "Giriş Atölyesi", link: "atolye" }],
+    pages: [
+      { id: 1, title: "Dini Yollar", link: "dini" },
+      { id: 2, title: "Ezoterik Yollar", link: "ezoterik" },
+      { id: 3, title: "Uyanma Yolları", link: "uyanma" },
+      { id: 3, title: "Çalışmalar", link: "calisma" },
+    ],
   },
   {
     id: 9,
