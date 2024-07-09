@@ -104,7 +104,7 @@
     @apply text-xs sm:text-sm  text-primary-light-3 border-b border-primary-light-3;
   }
   #pgSticker li a:hover {
-    @apply text-primary-dark-5  border-b border-primary-dark-5;
+    @apply text-accent  border-b border-accent;
   }
   #pgHeader {
     @apply my-4 md:my-0 container-p flex-1 max-w-4xl bg-gray-100 md:mr-8 text-gray-600;
