@@ -9,15 +9,14 @@ export default function PageInfo({ id }) {
   const menu = StaticPages.filter((m) => m.id == id);
   const pg = pageInfo.filter((p) => p.id == id)[0];
   return (
-    <section className="gradientPrimaryLD md:pb-4">
+    <section className=" md:pb-4">
       <div className="mx-auto container flex flex-col md:flex-row ">
         <div id="pgSticker">
           <h2>{pg.h2}</h2>
-          <div className="px-4 pt-2 pb-4 shadow-xl md:max-w-sm gradientPrimaryLD">
+          <div className="px-4 pt-2 pb-4 shadow-xl md:max-w-sm ">
             <p>{pg.p}</p>
             <div className="flex justify-around items-center gap-2">
               <div id="subMenu">
-                <h3>{pg.h3}</h3>
                 <h3>{menu[0].title.toLocaleUpperCase("TR")}</h3>
                 <ul>
                   {menu[0].pages.map((p) => (
