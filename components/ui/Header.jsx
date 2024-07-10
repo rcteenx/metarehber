@@ -16,7 +16,8 @@ export default function Header() {
   const handleSmallerScreensNavigationClose = () => {
     setIcon(false);
   };
-  const menu = StaticPages.filter((m) => m.id < 4 && m.id > 0);
+  // && m.id > 0
+  const menu = StaticPages.filter((m) => m.id < 4);
   const menu2 = StaticPages.filter((m) => m.id < 100);
   return (
     <header className="h-12 shadow-lg">

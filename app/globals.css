@@ -16,7 +16,7 @@
   }
   /* This is special! */
   h1 {
-    @apply mt-4 mb-0 font-bold text-3xl xl:text-5xl leading-tight tracking-normal;
+    @apply mt-4 mb-0 font-bold text-3xl xl:text-5xl leading-tight tracking-normal text-primary;
   }
   h2 {
     @apply my-4 font-bold text-2xl md:text-3xl lg:text-4xl;
@@ -80,13 +80,10 @@
   }
 
   #pgSticker {
-    @apply mt-0 px-4 md:px-8 text-gray-600;
+    @apply mt-0 md:-ml-4 md:mr-4 xl:mr-8 px-4 md:px-0 text-gray-600;
   }
   #pgSticker h2 {
-    @apply mb-0 px-4 pt-3 pb-1 text-xl md:max-w-sm md:text-2xl  rounded-t-2xl;
-  }
-  #pgSticker h3 {
-    @apply text-sm sm:text-base;
+    @apply mb-0 px-4 pt-2 text-xl md:max-w-sm md:text-2xl  rounded-t-2xl;
   }
   #pgSticker p {
     @apply text-xs sm:text-sm;
@@ -95,7 +92,7 @@
     @apply my-2 w-48 rounded-xl;
   }
   #subMenu h3 {
-    @apply my-1 py-1 leading-4 text-primary-dark-5 inline-block border-b;
+    @apply my-1 text-sm sm:text-base leading-4  inline-block border-b;
   }
   #pgSticker ul {
     @apply p-0;
@@ -110,7 +107,7 @@
     @apply text-primary-dark-5  border-b border-primary-dark-5;
   }
   #pgHeader {
-    @apply my-4 md:my-0 container-p flex-1 max-w-4xl bg-gray-100 md:mr-8 text-gray-600;
+    @apply my-4 md:my-0 container-p flex-1 max-w-4xl bg-gray-100  text-gray-600 shadow-xl border-4 md:border-t-0 border-white;
   }
 }
 

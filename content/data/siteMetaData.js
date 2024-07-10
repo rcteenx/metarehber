@@ -13,7 +13,19 @@ export const siteMetadata = {
 export const StaticPages = [
   {
     id: 0,
-    title: "hakkımızda",
+    title: "biz",
+    titleLong: "Meta Rehber Hakkında",
+    description:
+      "Meta Rehber, Reyhan Çetin ve Arkadaşları'nın öncülüğünde yayına geçen bir meta bilgi platformudur.",
+    h1: "META REHBER NEDİR?",
+    par: [
+      "Meta Rehber platformunda, kişinin kendini tanıma ve aşma yolculuğuna destek olan alternatif öğreti ve çalışmaları, belli bir çerçeve içinde kategorilendirme ve özetlemeyi amaçlıyoruz.",
+      "Kendini tanıma, kahramanın yolculuğu, aydınlanma, içsel gelişim, arayış, hayatın anlamı... vb gibi pek çok farklı ifadeyi, olabildiğince genelleyerek, 'yolculuk' olarak tanımlayacağız. ",
+      "Bu yolculuk için geliştirilmiş, farklı diyarlara, farklı amaçlar ve yöntemlerle giden yüzlerce dikkate değer öğreti var. Öğretileri anlamak için, belli bir emek ve zaman gerekiyor. Tüm öğretiler için bu yatırımı yapmak neredeyse imkansız.",
+      "Bu bilinmezliğe çözüm olarak, Meta Rehber'de alternatif yolculuk ve öğretilerin meta veriler paylaşacağız: Önce biraz kendinizi sonra da seçeceğiniz yol ve öğretileri anlamanız için.",
+      "Sevgilerle...",
+    ],
+    icon: "platform",
     link: "hakkimizda",
     pages: [
       { id: 1, title: "Meta", link: "hakkimizda/meta" },
@@ -25,6 +37,20 @@ export const StaticPages = [
   {
     id: 1,
     title: "insan",
+    titleLong: "İnsanın Katmanları",
+    description:
+      "İnsan çok boyutlu bir varlıktır: İç içe geçmiş ve her biri diğerinden bağımsız farklı katmanlardan oluşur.",
+    h1: "İNSAN NEDİR?",
+    par: [
+      "Pek çok insan için arayışın ve yolculuğun başladığı ilk sorulardan biri:",
+      "Ben kimim ya da NE?",
+      "Bu ve benzeri sorularla, bazı insanlar kendilerine doğru bir arayış yolculuğuna başlıyor. Çoğu zaman ne aradıklarını bilmeden. Olmayan bir şeyin eksikilğini hissederek başlayan bir yolculuk.",
+      "Peki bir cevabı var mı?",
+      "Herkes için tek ve mutlak doğru bir cevap yok. Pek çok farklı alternatif cevaplar var. Ancak pek çok cevap arasında, sizin için uygun olan hangisi?",
+      "Çok katmanlı insan modelimizi, önce kendimizi anlamak için kullanacağız. Sonrasında, çeşitli yolları sınıflandırmak ve yoldaki konumunu anlamaya çalışacağız. ",
+      "Sevgilerle...",
+    ],
+    icon: "human",
     link: "insan",
     pages: [
       { id: 1, title: "Sahte Kişilik", link: "sahte-kisilik" },
@@ -38,6 +64,19 @@ export const StaticPages = [
   {
     id: 2,
     title: "hayat",
+    titleLong: "Hayatın Anlamı",
+    description:
+      'Hayat, "ben" algımızın dışındaki her şey: Oturduğunuz koltuk, soluduğunuz hava, ekran, arkadaşınız, galaksi...',
+    h1: "HAYAT NEDİR?",
+    par: [
+      "- Dış dünya, hayat, duyularınızla algıladığınız dünya, gerçeklik... ne kadar gerçek?",
+      "- Canlı olmak, hayatın içinde yaşamak ne demek?",
+      "- Bir gözlemci olmadığında hiçbir şey olmuyor mu?",
+      "- Duyularımız çalışmasa ve dışardan hiçbir yeni izlenim almasak, yaşayabilir miyiz?",
+      "Dışımızdaki dünya, en azından şu anki algımıza göre böyle, büyük bir gizem.",
+      "Sevgilerle...",
+    ],
+    icon: "life",
     link: "hayat",
     pages: [
       { id: 1, title: "Dış Dünya", link: "dis-dunya" },
@@ -48,7 +87,18 @@ export const StaticPages = [
   },
   {
     id: 3,
-    title: "yollar",
+    title: "yol",
+    titleLong: "Kendimize Yolculuk",
+    description:
+      "Bir kişinin ayak izleri kolaylıkla silinebilir. Ancak bir grup ilerliyorsa, bir patika oluşur.",
+    h1: "KENDİNİ TANIMA YOLLARI",
+    par: [
+      "Hepimiz önce dışsal sebeplerle, hatta farkında bile olmadığımız çevresel yönlendirmelerle yola çıktık. Ancak bir süre sonra bazılarımız aradığını dış dünyada bulamayacağını anlayıp, yolculuğu önce içe sonra da meta fizik diyarlara yönlendirdi.",
+      "Kendini tanımaya, aydınlanmaya, uyanmaya, nirvana, cennet, tanrı ya da benzeri bir yerlere giden pek çok yol var. Ancak hangisi sizin için? Nereye gideceğinizi bilmiyorsanız, hangi yöne gittiğinizin önemi var mı?",
+      "Burada pek çok yolu, kendi penceremizden anlatmaya çalışacağız. Tüm bu platformun, meta gerçeklik yolcuları için bir rehber olmasını umuyoruz.",
+      "Sevgilerle...",
+    ],
+    icon: "way",
     link: "yollar",
     pages: [
       { id: 1, title: "Dini Yollar", link: "dini" },
