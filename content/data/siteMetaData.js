@@ -63,26 +63,25 @@ export const StaticPages = [
   },
   {
     id: 2,
-    title: "hayat",
-    titleLong: "Hayatın Anlamı",
+    title: "dünya",
+    titleLong: "Dünya Büyük Gizem",
     description:
       'Hayat, "ben" algımızın dışındaki her şey: Oturduğunuz koltuk, soluduğunuz hava, ekran, arkadaşınız, galaksi...',
-    h1: "HAYAT NEDİR?",
+    h1: "DÜNYA NEDİR?",
     par: [
-      "- Dış dünya, hayat, duyularınızla algıladığınız dünya, gerçeklik... ne kadar gerçek?",
+      "- Dünya, duyularınızla algıladığınız dünya, gerçeklik... ne kadar gerçek?",
       "- Canlı olmak, hayatın içinde yaşamak ne demek?",
-      "- Bir gözlemci olmadığında hiçbir şey olmuyor mu?",
-      "- Duyularımız çalışmasa ve dışardan hiçbir yeni izlenim almasak, yaşayabilir miyiz?",
-      "Dışımızdaki dünya, en azından şu anki algımıza göre böyle, büyük bir gizem.",
-      "Sevgilerle...",
+      "- Bir gözlemci olmadığında dünyaya ne oluyor?",
+      "- Duyularımız çalışmasa ve dış dünyadan hiçbir yeni izlenim almasak, yaşayabilir miyiz?",
+      "Dünya, en azından şu anki algımıza göre böyle, büyük bir gizem.",
     ],
     icon: "life",
-    link: "hayat",
+    link: "dunya",
     pages: [
       { id: 1, title: "Dış Dünya", link: "dis-dunya" },
-      { id: 2, title: "Canlılık", link: "canlilik" },
+      { id: 2, title: "Etkileşim", link: "etkilesim" },
       { id: 3, title: "İzlenimler", link: "izlenimler" },
-      { id: 4, title: "Etkileşim", link: "etkilesim" },
+      { id: 4, title: "Aşkın Diyarlar", link: "askin" },
     ],
   },
   {
@@ -99,7 +98,7 @@ export const StaticPages = [
       "Sevgilerle...",
     ],
     icon: "way",
-    link: "yollar",
+    link: "yol",
     pages: [
       { id: 1, title: "Dini Yollar", link: "dini" },
       { id: 2, title: "Ezoterik Yollar", link: "ezoterik" },
@@ -111,6 +110,17 @@ export const StaticPages = [
   {
     id: 9,
     title: "iletişim",
+    titleLong: "İletişim",
+    description:
+      "Bir kişinin ayak izleri kolaylıkla silinebilir. Ancak bir grup ilerliyorsa, bir patika oluşur.",
+    h1: "İLETİŞİM BİLGİLERİ",
+    par: [
+      "Bize aşağıdaki kanallardan ulaşabilirsiniz.",
+      "Whatsapp & Telefon: +90 (544) 308 74 02",
+      "Email: rhan.cetinx@gmail.com",
+      "Sevgilerle...",
+    ],
+    icon: "way",
     link: "iletisim",
     pages: [
       {

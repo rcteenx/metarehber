@@ -15,7 +15,7 @@ export default function PageInfo({ id }) {
             <div>
               <p>{menu[0].description}</p>
               <div className="flex justify-around items-center gap-0">
-                <div id="subMenu">
+                {/* <div id="subMenu">
                   <ul>
                     {menu[0].pages.map((p) => (
                       <li key={p.id}>
@@ -25,7 +25,7 @@ export default function PageInfo({ id }) {
                       </li>
                     ))}
                   </ul>
-                </div>
+                </div> */}
                 <div className="w-48 flex justify-center">
                   <IconComponent
                     name={menu[0].icon}
